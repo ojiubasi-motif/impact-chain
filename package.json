@@ -1,0 +1,37 @@
+{
+  "name": "fundspot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@tailwindcss/typography": "^0.5.9",
+    "@thirdweb-dev/react": "^3.13.0",
+    "@uauth/js": "^2.8.0",
+    "autoprefixer": "^10.4.13",
+    "dotenv": "^16.0.3",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "ethers": "^5.7.2",
+    "feather-icons": "^4.29.0",
+    "next": "13.3.1",
+    "postcss": "^8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "tailwindcss": "^3.2.7",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.12.7"
+  }
+}
