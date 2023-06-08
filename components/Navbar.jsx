@@ -39,7 +39,7 @@ export const Navbar = (props) => {
   // ===========login & logout functions============
   const uauth = new UAuth({
     clientID: "6a383979-d7c1-455d-a4a5-d3445dbc101e",
-    redirectUri: "http://localhost:3000",
+    redirectUri: "https://impactchain.vercel.app/",
     scope: "openid wallet",
   });
 
